@@ -1,0 +1,54 @@
+h1{
+	text-align: center;
+	font-family: 'Krona One', sans-serif;
+	font-size: 50px;
+	color: #EBF2FF;
+	border-bottom: 2px solid #C2C2C2;
+	width: 30%;
+	margin: auto;
+}
+body{
+	background-color: #0A1529;
+	/*background-image: url(photos/background1.jpg); */
+	/*background-repeat: no-repeat;*/
+	/*background-size: 100% 100%; */
+}
+img{
+	max-width: 300px;
+	height: 'auto';
+	/*float: left;*/
+	/*margin: 0.833%; */
+}
+
+/*img:hover{
+     opacity: 0.6;
+     transform: scale(1.1);
+}*/
+
+a{
+	max-width: 300px;
+	max-height: 300px;
+	background-color: #0A1529;
+}
+
+
+.swiper-container {
+	  width: 100%;
+	  padding-top: 50px;
+	  padding-bottom: 50px;
+	}
+.swiper-slide-shadow-left{
+	height: 300px;
+	width: 300px;
+}
+
+.swiper-slide-shadow-right{
+	height: 300px;
+	width: 300px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
