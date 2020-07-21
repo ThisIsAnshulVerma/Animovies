@@ -4,8 +4,8 @@ h1{
 	font-size: 50px;
 	color: #EBF2FF;
 	border-bottom: 2px solid #C2C2C2;
-	width: 30%;
-	margin: auto;
+	width: 50%;
+	margin:auto;
 }
 body{
 	background-color: #0A1529;
@@ -14,12 +14,28 @@ body{
 	/*background-size: 100% 100%; */
 }
 img{
-	max-width: 300px;
+	max-height: 300px;
 	height: 'auto';
 	/*float: left;*/
 	/*margin: 0.833%; */
 }
+.section{
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin: auto;
+	opacity: 0.6; 
+	align-self: center;
+	width: 15%;
+	margin-bottom: 30px;
+}
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgb(255, 255, 255), rgba(255, 255, 255, 0.3));
+}
 /*img:hover{
      opacity: 0.6;
      transform: scale(1.1);
@@ -35,7 +51,7 @@ a{
 .swiper-container {
 	  width: 100%;
 	  padding-top: 50px;
-	  padding-bottom: 50px;
+	  padding-bottom: 200px;
 	}
 .swiper-slide-shadow-left{
 	height: 300px;
@@ -49,6 +65,6 @@ a{
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 210px;
   height: 300px;
 }
