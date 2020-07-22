@@ -1,3 +1,12 @@
+.main {
+	text-align: left;
+  }
+
+a {
+	margin: 5px;
+	float: right;
+  }
+  
 h1{
 	text-align: center;
 	font-family: 'Krona One', sans-serif;
@@ -6,6 +15,8 @@ h1{
 	border-bottom: 2px solid #C2C2C2;
 	width: 50%;
 	margin:auto;
+	margin: 0;
+	display: inline-block;
 }
 body{
 	background-color: #0A1529;
